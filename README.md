@@ -84,3 +84,5 @@ Set up IAM roles with appropriate permissions for accessing AWS services like S3
 ## Conclusion
 
 The Real Time Credit Card Fraud Transaction Analytics Pipeline provides a scalable, efficient, and automated solution for detecting fraudulent transactions in real-time. By leveraging the power of AWS services and open-source technologies, the pipeline offers robust data processing, analysis, visualization, and monitoring capabilities, empowering organizations to safeguard against financial fraud effectively.
+
+## Visualization
