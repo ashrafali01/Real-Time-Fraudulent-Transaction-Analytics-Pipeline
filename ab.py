@@ -168,7 +168,7 @@ query = result.writeStream \
     .foreachBatch(lambda df, epoch_id: (df.drop("first", "last", "job", "profile").write.mode("append").format("parquet").save("s3://athenabucket-231/final.parquet/"))) \
     .start()
 
-
+#
 # Wait for the query to terminate
 query1.awaitTermination()
 query.awaitTermination()
